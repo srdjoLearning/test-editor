@@ -1,0 +1,30 @@
+.grid-item {
+  position: relative;
+  background: hsla(180, 74%, 71%, 0.027);
+  /* width: 5vw;
+    height: 5vh; */
+  margin: 0px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60px;
+  max-height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  padding: 0px;
+  cursor: pointer;
+  border: 2px solid hsla(184, 100%, 12%, 0.2);
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bell-icon {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: hsla(94, 24%, 46%, 0.8);
+}

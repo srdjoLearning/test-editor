@@ -1,0 +1,74 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.dynamic-grid {
+  min-width: auto;
+  min-height: auto;
+  background: hsl(0, 4%, 71%);
+  border-radius: 10px;
+  display: grid;
+  gap: 1px; /* Prilagodi razmak između grid-item-a */
+  padding: 5px;
+  border: 6px solid hsla(0, 3%, 8%, 0.411);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 2vh;
+  background: hsla(0, 25%, 36%, 0.5);
+  border-radius: 15px;
+  border: 3px solid hsla(0, 3%, 8%, 0.411);
+}
+
+.buttons-container button {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 10px;
+  border: thin;
+  background: hsla(0, 95%, 63%, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  transition: 0.5s;
+  margin: 2px;
+  border: 1px solid hsla(0, 3%, 8%, 0.411);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container button:hover {
+  background: hsla(0, 95%, 43%, 0.6);
+  cursor: pointer;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.row-column-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.row-column-container button {
+  width: 3.8rem;
+  height: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
